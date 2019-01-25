@@ -1,0 +1,272 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body::-webkit-scrollbar{
+    width: 10px;
+    background: #f3f3f3;
+}
+body::-webkit-scrollbar-thumb{
+    width: 10px;
+    background: #ddd;
+}
+body::-webkit-scrollbar-thumb:active{
+    background: #ccc;
+}
+hr{
+    border: 1px dashed rgba(0, 0, 0, 0.3);
+}
+p{
+    font-size: 14px
+}
+button{
+    padding: 7px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    background: #fff;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+button:hover{
+    background: #F3F3F3;
+}
+.clear-float{
+    clear: both;
+}
+.heading{
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 5px 10px;
+    margin: 0;
+    background: #F3F3F3;
+    font-size: 14px;
+}
+
+
+.wrapper{
+    width: 1000px;
+    height: auto;
+    /* border: 1px solid rgba(0, 0, 0, 0.3); */
+    margin: 0 auto;
+}
+.container{
+    width: 100%;
+    height: auto;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-top: none;
+    border-bottom: none;
+}
+.social ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.social ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 5px 3px 15px 3px;
+}
+.social ul li i{
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    background: #f3f3f3;
+    line-height: 30px;
+    color: #000;
+    border-radius: 50%;
+    text-align: center;
+    transition: 0.3s;
+}
+.social ul li i:hover{
+    background: #000;
+    color: #fff;
+}
+.profile{
+    width: 25%;
+    position: relative;
+    padding: 10px;
+    float: left;
+}
+.profile .profile-box{
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    margin: 0 0 10px 0;
+}
+.profile .profile-box:last-child{
+    margin: 0;
+}
+.profile-box .profile-image{
+    width: 180px;
+    height: 180px;
+    position: relative;
+    margin: 10px auto 0;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+.profile-box .profile-image img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.profile-box .profile-detail{
+    width: 100%;
+    height: auto;
+   
+}
+.profile-box .profile-detail h2{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 5px 0 5px 0;
+    color: #515151;
+}
+.profile-box .profile-detail ul{
+    margin: 0 0 15px 0;
+    padding: 0;
+}
+.profile-box .profile-detail ul li{
+    list-style-type: none;
+    font-size: 14px;
+    padding: 5px 16px;
+    line-height: 25px;
+}
+.profile-box table{
+    width: 100%;
+    padding: 10px;
+}
+.profile-box table tr td{
+    padding:2px 0 2px 0;
+    font-size: 13px;
+}
+.profile-box table tr td .input-box{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.profile-box table tr td .input-box i{
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 27px;
+    height: 27px;
+    text-align: center;
+    line-height: 27px;
+    background: #f3f3f3;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+.profile-box table tr td .input-field{
+    width: 100%;
+    padding: 6px 5px 6px 33px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+.profile-box table tr td textarea{
+    width: 100%;
+    height: 100px;
+    resize: none;
+    padding: 6px 5px 6px 35px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.profile-box table tr td textarea::-webkit-scrollbar{
+    width: 8px;
+}
+.profile-box table tr td textarea::-webkit-scrollbar-thumb{
+    width: 10px;
+    background: #f3f3f3;
+    border-radius: 15px;
+}
+.profile-box table tr td textarea::-webkit-scrollbar-thumb:active{
+    background: #ddd;
+}
+.profile-box table tr td .input-field:focus,
+.profile-box table tr td textarea:focus{
+    border-color: dodgerblue;
+}
+.profile-box table tr td .input-field:focus + i,
+.profile-box table tr td textarea:focus + i{
+    border-color: dodgerblue;
+}
+.body{
+    width: 75%;
+    float: left;
+    padding: 10px 10px 10px 0;
+}
+.body-section{
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    margin: 0 0 10px 0;
+}
+.body-section:last-child{
+    margin: 0;
+}
+.body-content{
+    width: 100%;
+    padding: 15px;
+    text-align: justify;
+}
+.body-content .board-image{
+    float: right;
+    width: 140px;
+    height: 140px;
+    border: 4px solid #fff;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    border-radius: 50%;
+}
+.body-content .board-image img{
+    width: 100%;
+    height: 100%;
+}
+.body-content ul{
+    margin: 0;
+    padding: 0;
+}
+.body-content ul li{
+    font-size: 14px;
+    list-style-type: none;
+    padding: 5px 0px;
+}
+.body-content table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+.body-content table:last-child{
+    margin: 0;
+}
+.body-content table tr th{
+    font-size: 14px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 5px 8px;
+    background: #f3f3f3;
+}
+.body-content table tr td{
+    font-size: 14px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 5px 8px;
+    width: 50%;
+}
+
+.footer{
+    text-align: center;
+    background: #f3f3f3;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.footer p{
+    margin: 0;
+    padding: 10px 10px;
+}

@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <title>My Profile</title>
+
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="css/responsive.css" type="text/css">
+        <link rel="stylesheet" href="css/fontawesome/css/all.css" type="text/css">
+    </head>
+    <body>
+        <div class="wrapper">
+
+            <div class="container">
+
+                <div class="profile">
+
+                    <div class="profile-box">
+                            <h3 class="heading"><i class="fas fa-info-circle"></i> About me</h3>
+                        <div class="profile-image">
+                            <img src="images/profile-image.jpg" alt="Profile-Image">
+                        </div>
+                        <div class="profile-detail">
+                            <h2>Chandrashekhar Kumar Thakur</h2><hr>
+                            <ul>
+                                <li>
+                                    <strong><i class="fas fa-map-marker-alt"></i> Address :</strong>
+                                    <br>124/6, Dighi, Bathnaha, Sitamarhi, Bihar<br>Pin : 843322
+                                </li><hr>                               
+                                <li><strong><i class="far fa-calendar-alt"></i> DOB :</strong>
+                                    <br>10<sup>th</sup> June 1995
+                                </li><hr>                            
+                                <li><strong><i class="far fa-envelope"></i> Email :</strong>
+                                    <br>rajababusharma20@gmail.com
+                                </li><hr>                            
+                                <li><strong><i class="fas fa-phone-volume"></i> Mobile :</strong>
+                                    <br>+91 - 9122 087 872<br>+91 - 9315 269 206
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                         <div class="social">
+                            <ul>
+                                <li><a href="https://www.facebook.com/rajababusharma20" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-whatsapp" title="9122087872"></i></a></li>
+                                <li><a href="https://www.twitter.com/rajababusharma2" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="https://www.instagram.com/rajababusharma20" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCy3i_vPaIXm2R0jkg1Hr-5A" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="profile-box">
+                        <h3 class="heading"><i class="fas fa-envelope"></i> Contact me</h3>
+                        <form action="php/send-mail.php" method="post">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <label for="name">Name</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="input-box">
+                                            <input class="input-field" type="text" name="name" id="name" required>
+                                            <i class="fas fa-user"></i>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="mobile">Mobile</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="input-box">
+                                            <input class="input-field" type="tel" name="phone" id="mobile" required>
+                                            <i class="fas fa-phone"></i>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="email">Email</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="input-box">
+                                            <input class="input-field" type="email" name="email" id="email" required>
+                                            <i class="fas fa-at"></i>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="message">Message</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="input-box">
+                                            <textarea name="mess" id="message" cols="" rows="" required></textarea>
+                                            <i class="fas fa-pen" style="height: 98px;"></i>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <button type="submit" style="margin: 0;width: 100%;"><i class="fas fa-envelope"></i> Send Message</button>
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
+
+                </div>
+
+                <div class="body">
+
+                    <div class="body-section">
+                        <h3 class="heading"><i class="fas fa-universal-access"></i> Career Objective</h3>
+                        <div class="body-content">
+                            <ul>
+                                <li>To make a career in service sector and to be good social person and work with an organization which provides an opportunity to put my best and exploit my skills and to grow with the organization.</li>
+                            </ul>
+                        </div>    
+                    </div>
+
+                    <div class="body-section">
+                        <h3 class="heading"><i class="fas fa-award"></i> Academic Profile</h3>
+                        <div class="body-content">
+                            <div class="board-image">
+                                <img class="image" src="images/bseb.png">
+                            </div>
+                            <ul>
+                                <li><i class="fas fa-university"></i> Matriculation from Bihar School Examination Board</li>
+                                <li><i class="fas fa-book"></i> Hindi & Sanskrit</li>
+                                <li><i class="fas fa-calendar-alt"></i> 2010</li>
+                                <li><button onclick="window.location='http://www.biharboard.ac.in'">Read more <i class="fas fa-angle-right"></i></button></li>
+                            </ul>
+                        </div>
+                        <div class="clear-float"></div><hr>
+                        <div class="body-content">
+                            <div class="board-image">
+                                <img class="image" src="images/bseb.png">
+                            </div>
+                            <ul>
+                                <li><i class="fas fa-university"></i> Intermediate from Bihar School Examination Board</li>
+                                <li><i class="fas fa-book"></i> Science ( Mathematics )</li>
+                                <li><i class="fas fa-calendar-alt"></i> 2010 - 2012</li>
+                                <li><button onclick="window.location='http://www.biharboard.ac.in'">Read more <i class="fas fa-angle-right"></i></button></li>
+                            </ul>
+                        </div>
+                        <div class="clear-float"></div><hr>
+                        <div class="body-content">
+                            <div class="board-image">
+                                <img class="image" src="images/cimage.jpg">
+                            </div>
+                            <ul>
+                                <li><i class="fas fa-university"></i> Bachelor in Computer Applications ( B.C.A. ) from CIMAGE College</li>
+                                <li><i class="fas fa-book"></i> Computer Applications</li>
+                                <li><i class="fas fa-calendar-alt"></i> 2012 - 2015</li>
+                                <li><button onclick="window.location='http://www.cimage.in'">Read more <i class="fas fa-angle-right"></i></button></li>
+                            </ul>
+                        </div>
+                        <div class="clear-float"></div>
+                    </div>
+
+                    <div class="body-section">
+                        <h3 class="heading"><i class="fas fa-desktop"></i> Technical Skills</h3>
+                        <div class="body-content">
+                            <table>
+                                <tr>
+                                    <td>Web Technologies</td>
+                                    <td> HTML, CSS, PHP, Java Script</td>
+                                </tr>
+                                <tr>
+                                    <td>Programming Languages</td>
+                                    <td>C, C++, JAVA, Visual Basic 6.0, Visual Basic .Net</td>
+                                </tr>
+                                <tr>
+                                    <td>DBMS Tools</td>
+                                    <td>ORACLE, SQL, SQL Server</td>
+                                </tr>
+                                <tr>
+                                    <td>Operating Systems</td>
+                                    <td>Windows XP / 7 / 8 / 8.1 / 10</td>
+                                </tr>
+                                <tr>
+                                    <td>Office Tools</td>
+                                    <td>MS-Word, MS-Excel, MS-Power Point, MS-Access</td>
+                                </tr>
+                                <tr>
+                                    <td>Others</td>
+                                    <td>MS-Office, Photoshop, CorelDraw</td>
+                                </tr>
+                            </table>
+                        </div>    
+                    </div>
+
+                    <div class="body-section">
+                        <h3 class="heading"><i class="fas fa-street-view"></i> Strengths</h3>
+                        <div class="body-content">
+                            <ul>
+                                <li><i class="fas fa-angle-right"></i> Good exposure in JAVA, VISUAL BASIC .NET, HTML, CSS, PHP, JAVA SCRIPT</li>
+                                <li><i class="fas fa-angle-right"></i> Good Analytical & Logical with emphasis on constructive teamwork</li>
+                                <li><i class="fas fa-angle-right"></i> Keen desire to work across various platforms & domains</li>
+                            </ul>
+                        </div>    
+                    </div>
+
+                    <div class="body-section">
+                        <h3 class="heading"><i class="fab fa-codepen"></i> Project Under Academic</h3>
+                        <div class="body-content">
+                            <table>
+                                <tr>
+                                    <th colspan="2"><i class="fas fa-book-open"></i> Library Management System</th>
+                                </tr>
+                                <tr>
+                                    <td>Tools</td>
+                                    <td>Visual Basic 6.0, MS-Access</td>
+                                </tr>
+                                <tr>
+                                    <td>Team Size / Role</td>
+                                    <td>1 / Developer</td>
+                                </tr>
+                                <tr>
+                                    <td>Duration</td>
+                                    <td>12 Days</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr>
+                                    <th colspan="2"><i class="fas fa-desktop"></i> Computer Institute Management System</th>
+                                </tr>
+                                <tr>
+                                    <td>Tools</td>
+                                    <td>Visual Basic net, MS-Access</td>
+                                </tr>
+                                <tr>
+                                    <td>Team Size / Role</td>
+                                    <td>1 / Developer</td>
+                                </tr>
+                                <tr>
+                                    <td>Duration</td>
+                                    <td>10 Days</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr>
+                                    <th colspan="2"><i class="far fa-hospital"></i> Hospital Management System</th>
+                                </tr>
+                                <tr>
+                                    <td>Tools</td>
+                                    <td>Visual Basic .Net, MS-Access</td>
+                                </tr>
+                                <tr>
+                                    <td>Team Size / Role</td>
+                                    <td>2 / Developer</td>
+                                </tr>
+                                <tr>
+                                    <td>Duration</td>
+                                    <td>15 Days</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr>
+                                    <th colspan="2"><i class="fas fa-globe"></i> CIMAGE College Website ( <a href="https://tinyurl.com/y7c8bfs2" target="_blank">Go to Website</a>)</th>
+                                </tr>
+                                <tr>
+                                    <td>Tools</td>
+                                    <td>HTML, CSS, Java Script, PHP, My SQl</td>
+                                </tr>
+                                <tr>
+                                    <td>Team Size / Role</td>
+                                    <td>1 / Developer</td>
+                                </tr>
+                                <tr>
+                                    <td>Duration</td>
+                                    <td>10 Days</td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr>
+                                    <th colspan="2"><i class="fas fa-globe"></i> My Profile</th>
+                                </tr>
+                                <tr>
+                                    <td>Tools</td>
+                                    <td>HTML, CSS, Java Script, PHP, My SQl</td>
+                                </tr>
+                                <tr>
+                                    <td>Team Size / Role</td>
+                                    <td>1 / Developer</td>
+                                </tr>
+                                <tr>
+                                    <td>Duration</td>
+                                    <td>2 Days</td>
+                                </tr>
+                            </table>
+                        </div>    
+                    </div>
+
+                    <div class="body-section">
+                        <h3 class="heading"><i class="fas fa-language"></i> Language Known</h3>
+                        <div class="body-content">
+                            <ul>
+                                <li><i class="fas fa-angle-right"></i> Hindi</li>
+                                <li><i class="fas fa-angle-right"></i> English</li>
+                            </ul>
+                        </div>    
+                    </div>
+
+                    <div class="body-section">
+                        <h3 class="heading"><i class="far fa-smile"></i> Area of Interest</h3>
+                        <div class="body-content">
+                            <ul>
+                                <li><i class="fas fa-angle-right"></i> Internet Suffering</li>
+                                <li><i class="fas fa-angle-right"></i> Listening to Music</li>
+                                <li><i class="fas fa-angle-right"></i> Working with Computer</li>
+                                <li><i class="fas fa-angle-right"></i> Playing Cricket and Badminton</li>
+                            </ul>
+                        </div>    
+                    </div>
+
+                    <div class="body-section">
+                        <h3 class="heading"><i class="fas fa-info-circle"></i> Personal Details</h3>
+                        <div class="body-content">
+                            <table>
+                                <tr>
+                                    <td>Father's Name</td>
+                                    <td>Suresh Thakur</td>
+                                </tr>
+                                <tr>
+                                    <td>Martial Status</td>
+                                    <td>Single</td>
+                                </tr>
+                                <tr>
+                                    <td>Gender</td>
+                                    <td>Male</td>
+                                </tr>
+                                <tr>
+                                    <td>Nationality</td>
+                                    <td>Indian</td>
+                                </tr>
+                            </table>
+                        </div>    
+                    </div>
+
+                </div>
+                <div class="clear-float"></div>
+            </div>
+
+            <div class="footer">
+                <p>Copyright &copy; Chandrashekhar Kumar Thakur 2018-2020. All Right Reserved.</p>
+            </div>
+                
+        </div>
+    </body>
+</html>

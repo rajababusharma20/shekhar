@@ -1,0 +1,21 @@
+@media screen and (max-width: 360px){
+    .wrapper, .container{
+        width: 100%;
+    }
+    .profile{
+        width: 100%;
+        float: none;
+    }
+    .body{
+        width: 100%;
+        padding: 10px;
+    }
+    .body-content .board-image{
+        float: none;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    button{
+        width: 100%;
+    }
+}

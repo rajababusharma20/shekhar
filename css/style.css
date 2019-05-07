@@ -149,7 +149,7 @@ button:hover{
 }
 .profile-box table tr td .input-box{
     position: relative;
-    display: inline-block;
+    
     width: 100%;
 }
 .profile-box table tr td .input-box i{

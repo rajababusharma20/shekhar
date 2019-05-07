@@ -1,7 +1,7 @@
 @media screen and (max-width: 360px){
     .wrapper, .container{
         width: 100%;
-        border: none;
+        border: 5px solid #fff;
     }
     .profile{
         width: 100%;

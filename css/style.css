@@ -156,10 +156,10 @@ button:hover{
     position: absolute;
     top: 1px;
     left: 1px;
-    width: 35px;
-    height: 35px;
+    width: 42px;
+    height: 34px;
     text-align: center;
-    line-height: 35px;
+    line-height: 34px;
     background: #f3f3f3;
     border-right: 1px solid rgba(0, 0, 0, 0.3);
     transition: 0.3s;
